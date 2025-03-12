@@ -81,7 +81,7 @@ export default function About() {
 						hovered && "scale-[0.96]"
 					}`}>
 					<Image
-						src="/praba.png"
+						src="/group.jpeg"
 						height = {220}
 						width = {200}
 					

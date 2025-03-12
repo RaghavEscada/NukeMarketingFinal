@@ -75,15 +75,35 @@ export default function Footer() {
 								))}
 							</div>
 						</div>
+						
+						
 						<div className="pt-[50px] flex gap-x-[20px]">
+						<h1 className="paragraph font-medium font-NeueMontreal text-black">
+							Contact Number : 
+  <a 
+    href="https://wa.me/919789985132?text=Dear%20Nuke%20Marketing%20Team%2C%20I%20hope%20you%20are%20doing%20well.%20I%20am%20interested%20in%20learning%20more%20about%20your%20services%20and%20ongoing%20projects.%20Could%20you%20please%20provide%20more%20details%20or%20let%20me%20know%20a%20suitable%20time%20to%20discuss%20further%3F%20Looking%20forward%20to%20your%20response.%20Best%20regards%2C%20Client" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-green-600 font-bold underline"
+  >
+     +91 97899 85132
+  </a>
+</h1>
+
 							<h1 className="paragraph font-medium font-NeueMontreal text-secondry">
-								Email ID:
+								Email ID :
 							</h1>
 							<LinkHover
 								title="nukemarketing7@gmail.com"
 								href="nukemarketing7@gmail.com"
 								className="before:h-[1px] after:h-[1px] paragraph font-medium before:bottom-[-3px] after:bottom-[-3px]"
 							/>
+						
+							
+						</div>
+						
+						<div className="pt-[50px] flex gap-x-[20px]">
+							
 						</div>
 					</div>
 				</div>
@@ -103,7 +123,7 @@ export default function Footer() {
 				<div className="w-1/2 h-full flex gap-[10px] justify-between items-end sm:w-full xm:w-full sm:flex-col xm:flex-col sm:items-start xm:items-start">
 					<div className="flex sm:flex-col xm:flex-col gap-[10px]">
 						<h1 className="paragraph font-medium font-NeueMontreal text-secondry opacity-40">
-							© Nuke Marketing 2025.
+							© Nuke Marketing 2025. 
 						</h1>
 						<LinkHover
 							title="Legal Terms"

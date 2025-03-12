@@ -10,12 +10,12 @@ export const navbarItems = [
    {
       id: 2,
       title: "Our work",
-      href: "/presentation",
+      href: "/nuke-works",
    },
    {
       id: 3,
       title: "About us",
-      href: "/ochi-team",
+      href: "/nuke-team",
    },
    {
       id: 4,
@@ -318,88 +318,87 @@ export const clientsItem = [
 export const projectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "Kalpana Creations",
       href: "/case/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Social Media Marketing",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
+            title: "Web Development",
             href: "/services",
          },
          {
             id: 3,
-            title: "sales deck",
+            title: "Brand Strategy",
             href: "/services",
          },
          {
             id: 4,
-            title: "slides design",
+            title: "Creative Copywriting",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "vise",
+      title: "Vedant Studios",
       href: "/case/",
       src: project2,
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Brand Identity",
             href: "/services",
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "Corporate Presentation",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "trawa",
+      title: "Aryavarta Designs",
       href: "/case/",
       src: project3,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Packaging Design",
             href: "/services",
          },
          {
             id: 2,
-            title: "Social Media Marketing",
+            title: "E-Commerce Branding",
             href: "/services",
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "Investor Deck",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "premiumblend",
+      title: "Samsara Media",
       href: "/case/",
       src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Ad Campaigns",
             href: "/services",
          },
       ]
    },
 ];
-
 
 // services page
 
@@ -450,7 +449,7 @@ export const serviceClientsItem = [
    {
       id: 1,
       website: "Karman Ventures",
-      href: "https://www.ochi.design",
+      href: "/",
       title: "Services:",
       name: "William Barnes",
       src: client01,
@@ -849,7 +848,7 @@ export const achiveItems = [
 export const presentationProjectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "Amuthasurabhi",
       src: project1,
       href: "/case/",
       links: [
@@ -877,7 +876,7 @@ export const presentationProjectItem = [
    },
    {
       id: 2,
-      title: "trawa",
+      title: "Amuthasurabhi",
       src: project3,
       href: "/case/",
       links: [
@@ -1234,99 +1233,100 @@ export const aboutPartberItems = [
 export const FaqItems = [
    {
       id: 1,
-      question: "How many iterations the project includes?",
+      question: "How do you approach brand strategy?",
       title: "Description",
-      description: "We’re committed to delighting every one of our clients and will do everything to deliver on the project fully. We iterate as much as needed to ensure the best result.",
+      description: "We take a deep dive into your brand’s vision, values, and target audience to craft a strategic roadmap. Our process ensures a strong brand identity that resonates with your audience and drives long-term success.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Based on our experience and ways of working, no more than three revisions are needed to meet clients’ expectations and business needs."
+            description: "We conduct market research, competitive analysis, and brand positioning to ensure your brand stands out."
          },
          {
             id: 2,
             title: 2,
-            description: "If your project is something we are not capable of doing, we will say it right there and won’t commit. Instead, we will refer you to specialists in any field you need and we might know."
+            description: "Our team works collaboratively to align your branding with business goals and customer expectations."
          },
       ],
       button: "read"
    },
    {
       id: 2,
-      question: "Do you animate presentations?",
+      question: "Do you offer logo and visual identity design?",
       title: "Description",
-      description: "Movement is what attracts the eye. But not every presentation requires animation, although we do agree that animated presentations give a wow effect. We surely add transitions and animation to your presentation where we think it increases engagement, surprise, or simply delivers the message flawlessly.",
+      description: "Yes! A brand’s visual identity is crucial for recognition and consistency. We craft logos, typography, color palettes, and other design assets to build a cohesive and memorable brand image.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Our design team ensures every visual element aligns with your brand’s story and values."
          },
       ],
       button: "read"
    },
    {
       id: 3,
-      question: "Do you join forces with other agencies?",
+      question: "Do you collaborate with other creative agencies?",
       title: "Description",
-      description: "Yes, we do partner with other creative agencies where we lack expertise or experience. We carefully select our partners and frequently collaborate on brand identity, web design, animation design, and other fine initiatives that benefit both us and our clients. All with the purpose to expand our creative POV and supplementing you with top-notch work.",
+      description: "Absolutely! We partner with specialists in web design, animation, content creation, and other fields to deliver comprehensive branding solutions. Our goal is to provide top-tier work that enhances your brand."
+      ,
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Collaboration allows us to push creative boundaries and bring innovative branding ideas to life."
          },
       ],
       button: "read"
    },
    {
       id: 4,
-      question: "I want to become a part of the team! Do you hire?",
+      question: "Are you hiring creative professionals?",
       title: "Description",
-      description: "Yes! We actively search for talent to join us in completing high-stake presentation design projects at OCHI. As a presentation agency, we always aim to create the best products and services possible. Hence, we are looking for someone who will enjoy helping us fuse design and thinking into something impactful and beautiful.",
+      description: "Yes! We’re always on the lookout for talented designers, strategists, and marketers to join our team. If you’re passionate about branding and storytelling, we’d love to hear from you!",
       links: [
          {
             id: 1,
             title: 1,
-            description: "If you feel like you’re on top of your creative game, whether it’s storytelling, graphic design, or animation. Send us the CV and portfolio at Ihor@ochi.design with “CREATE AND THRILL” in the subject. We will get back to you and maybe schedule a call. If there’s a potential fit here, you will meet the team. If that goes well – you’ll become a part of it."
+            description: "Send your portfolio and CV to careers@brandagency.com with ‘Creative Talent’ in the subject line."
          },
          {
             id: 2,
             title: 2,
-            description: "If you think you can improve our processes, marketing, PR, and communications, or you excel at managing people, we would love to hear from you. Send your message to hello@ochi.design with “-” and we will get back to you."
+            description: "If you have expertise in marketing, strategy, or business development, reach out to us at hr@brandagency.com."
          },
       ],
       button: "read"
    },
    {
       id: 5,
-      question: "Can I hire you for publish speaking, or student workshop?",
+      question: "Do you offer brand workshops or training?",
       title: "Description",
-      description: "The short answer is yes.",
+      description: "Yes, we conduct branding workshops and training sessions for teams and organizations. Our goal is to educate businesses on effective branding strategies that drive growth and engagement.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Through our work, we empower brands to make a difference. But while, the presentations that raise millions help in the long run by providing resources for organizations to evolve, create new workplaces, and make things better. We also offer our corporate clients personal training. We love visiting traditional university students to share insights and expertise through masterclasses and workshops. This is how we make things better by teaching others how to make better things. And this changes the world here and now."
+            description: "Workshops include brand positioning, storytelling, and visual identity creation."
          },
          {
             id: 2,
             title: 2,
-            description: "If you have an event coming or you are a university academic, please reach out to us with the topic, and we will see how we can help."
+            description: "We also offer one-on-one brand consultations tailored to your specific needs."
          },
       ],
       button: "read"
    },
    {
       id: 6,
-      question: "Would you like to jump on a podcast or YouTube video?",
+      question: "Would you be open to podcast or video collaborations?",
       title: "Description",
-      description: "Yes, why not. It’s a great chance to give back to the creative community by sharing and learning. Especially if the audience is relevant to the communication design subject. Or maybe it helps our clients in some way. We can’t know until we see some details, so drop us a line with a brief explanation at kseniia@ochi.design with the “Podcast/YT Proposal”.",
+      description: "Definitely! We love sharing our branding insights through podcasts and video content. If you have an audience interested in branding, design, or marketing, let’s collaborate!",
       links: [
          {
             id: 1,
             title: 1,
-            description: "By the way, animated presentations can also be used for marketing purposes to promote your ideas via socials."
+            description: "Reach out with your proposal at media@brandagency.com with ‘Podcast/Video Proposal’ in the subject."
          },
       ],
       button: "read"

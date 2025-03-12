@@ -15,7 +15,7 @@ export default function Publication() {
 				<div className="w-full flex justify-between pt-[20px] sm:flex-col xm:flex-col gap-y-[20px]">
 					<div className="w-[30%] sm:w-full xm:w-full">
 						<h3 className="paragraph font-medium text-white font-NeueMontreal">
-							Latest publication
+							Latest articles of Nuke Marketing
 						</h3>
 					</div>
 					<div className="w-[70%] flex gap-y-[20px] sm:flex-col xm:flex-col sm:w-full xm:w-full gap-[10px]">
