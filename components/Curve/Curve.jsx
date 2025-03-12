@@ -7,8 +7,8 @@ import { text, curve, translate } from "@/motion";
 const routes = {
 	"/": "Nuke Marketing",
 	"/services": "Craft is the heart of creativity.",
-	"/presentation": "Mastery is in the details.",
-	"/ochi-team": "Content is king, engagement is queen",
+	"/nuke-works": "Mastery is in the details.",
+	"/nuke-team": "Content is king, engagement is queen",
 	"/insights": "Stand out or fade out.",
 	"/contact": "Create. Refine. Repeat.",
 	"/case": "Workiz Easy",
