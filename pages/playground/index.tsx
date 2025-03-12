@@ -2,15 +2,9 @@
 import { useEffect, useState } from "react";
 
 export default function ContactPage() {
-    const [reload, setReload] = useState(false);
+   
 
-    useEffect(() => {
-
-        if (!sessionStorage.getItem("contactReloaded")) {
-            sessionStorage.setItem("contactReloaded", "true");
-            setReload(true);
-        }
-    }, []);
+   
 
     return (
         
@@ -18,7 +12,7 @@ export default function ContactPage() {
             {/* Contact.html inside iframe, ensuring navbar stays */}
             <iframe 
                 src="/contact.html" 
-                key={reload ? "reload" : "normal"} 
+               
                 style={{ width: "100vw", height: "100vh", border: "none" }}
             ></iframe>
         </div>
