@@ -37,8 +37,7 @@ export default function MobileNav() {
 						<div className="w-full flex justify-between items-center h-[8vh] border-b border-[#f1f1f155] padding-x">
 							<Link href={"/"}>
 								<Image
-									src={mobileLogo}
-									alt="nuke marketing"
+									src="/nuke.png"									alt="nuke marketing"
 									width={70}
 									height={70}
 								/>
