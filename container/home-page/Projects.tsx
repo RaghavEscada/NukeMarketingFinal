@@ -39,7 +39,7 @@ export default function Projects() {
 			<div className="w-full flex justify-center">
 				<div className="flex items-center justify-between bg-secondry cursor-pointer rounded-full group">
 					<RoundButton
-						href="/presentation"
+						href="/nuke-works"
 						title="view all projects"
 						bgcolor="#000"
 						className="bg-white text-black"
@@ -47,6 +47,7 @@ export default function Projects() {
 					/>
 				</div>
 			</div>
+			
 		</section>
 	);
 }

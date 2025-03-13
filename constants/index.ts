@@ -64,7 +64,7 @@ export const footernavbarItems = [
    {
       id: 3,
       title: "Our work",
-      href: "presentation",
+      href: "nuke-works",
    },
    {
       id: 4,
@@ -80,6 +80,11 @@ export const footernavbarItems = [
       id: 6,
       title: "Contact us",
       href: "contact",
+   },
+   {
+      id: 7,
+      title: "playground",
+      href: "playground",
    },
 ];
 

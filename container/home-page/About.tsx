@@ -19,6 +19,7 @@ export default function About() {
     and create powerful content. 
 </h2>
 
+
 			</div>
 			<div className="w-full border-y border-[#21212155] my-[50px] py-[20px]">
 				<div className="padding-x pb-[50px] w-full flex sm:flex-col xm:flex-col gap-[30px] justify-between">
@@ -91,6 +92,7 @@ export default function About() {
 						}`}
 					/>
 				</div>
+				
 			</div>
 		</section>
 	);
