@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import { Curve, Ready } from "@/components";
 import {
+	Works,
 	Heropresentation,
 	Projectspresentation,
 	Publication,
@@ -21,6 +22,7 @@ export default function Presentation() {
 				<Projectspresentation />
 				<Publication />
 				<Ready />
+				<Works/>
 			</Curve>
 		</>
 	);
